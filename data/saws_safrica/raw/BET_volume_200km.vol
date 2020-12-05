@@ -1,0 +1,315 @@
+<sdf version="5.51.6" type="vol" owner="" time="14:01:27" date="2018-08-01">
+   <unitid>SI</unitid>
+   <detailedchanged>1</detailedchanged>
+   <scantimeele>15</scantimeele>
+   <scantime>326</scantime>
+   <name>volume_200km.vol</name>
+   <pargroup refid="sdfbase">
+      <multitrip>Off</multitrip>
+      <numtrip>1</numtrip>
+      <multitripprfmode>Off</multitripprfmode>
+      <stoprange>200</stoprange>
+      <numele>12</numele>
+      <scanstrategy>Optimised</scanstrategy>
+      <firstele>0.5</firstele>
+      <lastele>30</lastele>
+      <datatypez>On</datatypez>
+      <datatypeuz>On</datatypeuz>
+      <datatypev>On</datatypev>
+      <datatypew>On</datatypew>
+      <datatypezdr>On</datatypezdr>
+      <datatypephidp>On</datatypephidp>
+      <datatypekdp>On</datatypekdp>
+      <datatypeukdp>Off</datatypeukdp>
+      <datatyperhohv>On</datatyperhohv>
+      <datatypeldr>Off</datatypeldr>
+      <gdrx_dp_proc_mode>GdrxDpModeHV_HV</gdrx_dp_proc_mode>
+      <rangestep>0.5</rangestep>
+      <rangesamp>1</rangesamp>
+      <start_range>0</start_range>
+      <highprf>750.00</highprf>
+      <stagger>None</stagger>
+      <lowprf>0.00</lowprf>
+      <pw_index>0</pw_index>
+      <cf_doppler>On</cf_doppler>
+      <filtermode>IIRDoppler</filtermode>
+      <fftfilter>Off</fftfilter>
+      <cf_spatial>On</cf_spatial>
+      <speckle>On</speckle>
+      <gdrx_clutter_flag_filter>Off</gdrx_clutter_flag_filter>
+      <cf_dectree>Off</cf_dectree>
+      <cf_gip>Off</cf_gip>
+      <filterwidth>6</filterwidth>
+      <gdrx_cluttermap>GdrxCmOff</gdrx_cluttermap>
+      <antspeed>24</antspeed>
+      <anglestep>1</anglestep>
+      <timesamp>31</timesamp>
+      <fixselect>AngleStep</fixselect>
+      <csr>30</csr>
+      <sqi>0.3</sqi>
+      <zsqi>0.5</zsqi>
+      <log>2</log>
+      <extrarclfile>None</extrarclfile>
+      <dualprfmode>SdfDPrfModeAda</dualprfmode>
+      <prfcorrthr>2</prfcorrthr>
+      <prfcorron>On</prfcorron>
+      <prfcorrmode>SdfDPrfCorrMedian</prfcorrmode>
+      <filterdepth>SdfCfDepthDefault</filterdepth>
+      <fft_weight>GdrxWfHamming</fft_weight>
+      <spatial_modus>SdfSpatialFilterAvg</spatial_modus>
+      <spatial_min>3</spatial_min>
+      <spatial_max>5</spatial_max>
+      <mask_uz>1</mask_uz>
+      <mask_cz>14</mask_cz>
+      <mask_v>4</mask_v>
+      <mask_w>4</mask_w>
+      <gdrx_tripnotchwidth>0.5</gdrx_tripnotchwidth>
+      <gdrx_tripccorthres>20</gdrx_tripccorthres>
+      <gdrx_tripsnrthres>3</gdrx_tripsnrthres>
+      <gdrx_tripsqithres>0.4</gdrx_tripsqithres>
+      <gdrx_tripratiothres>20</gdrx_tripratiothres>
+      <gdrx_tripdftwin>GdrxWfRectangular</gdrx_tripdftwin>
+      <phase_coding>2</phase_coding>
+      <datatypes>dBZ,dBuZ,V,W,ZDR,PhiDP,uPhiDP,KDP,RhoHV</datatypes>
+      <masterdatatypes>dBZ,V,W,ZDR,PhiDP,KDP,RhoHV</masterdatatypes>
+      <datatypes_format>dBZ=-1,dBuZ=-1,V=-1,W=-1,ZDR=-1,uPhiDP=-1,PhiDP=-1,KDP=-1,RhoHV=-1</datatypes_format>
+   </pargroup>
+   <extrarcl/>
+   <slice refid="0">
+      <dynz min="-31.5" max="95.5"/>
+      <dynv min="-27.6281" max="27.6281"/>
+      <dynw min="0.107922" max="27.5202"/>
+      <dynzdr min="-8" max="12"/>
+      <dynldr min="-50" max="10"/>
+      <dynkdp min="-20" max="40"/>
+      <posangle>30.0</posangle>
+      <startangle>0.0</startangle>
+      <stopangle>0.0</stopangle>
+      <numtrip>1</numtrip>
+      <stoprange>100</stoprange>
+      <start_range>0</start_range>
+      <rangestep>0.5</rangestep>
+      <rangesamp>4</rangesamp>
+      <highprf>1050</highprf>
+      <stagger>None</stagger>
+      <lowprf>0.00</lowprf>
+      <pw_index>0</pw_index>
+      <cf_doppler>Off</cf_doppler>
+      <filterwidth>3</filterwidth>
+      <fftfilter>Off</fftfilter>
+      <cf_spatial>On</cf_spatial>
+      <speckle>On</speckle>
+      <statisticalfilter>Off</statisticalfilter>
+      <gdrx_cluttermap>GdrxCmOff</gdrx_cluttermap>
+      <gdrx_clutter_flag_filter>Off</gdrx_clutter_flag_filter>
+      <cf_gip>Off</cf_gip>
+      <cf_gip_width>0.0000</cf_gip_width>
+      <cf_gip_mode_const>Off</cf_gip_mode_const>
+      <cf_gip_max_width>0.5000</cf_gip_max_width>
+      <antspeed>35</antspeed>
+      <fixselect>AngleStep</fixselect>
+      <anglesync>On</anglesync>
+      <timesamp>30</timesamp>
+      <anglestep>1</anglestep>
+      <asyncoffset>0</asyncoffset>
+      <csr>30</csr>
+      <sqi>0.3</sqi>
+      <zsqi>0.5</zsqi>
+      <log>2</log>
+      <extrarclfile>None</extrarclfile>
+      <dualprfmode>SdfDPrfModeAda</dualprfmode>
+      <prfcorrthr>2</prfcorrthr>
+      <prfcorron>On</prfcorron>
+      <prfcorrmode>SdfDPrfCorrMedian</prfcorrmode>
+      <filterdepth>SdfCfDepthDefault</filterdepth>
+      <fft_weight>GdrxWfHamming</fft_weight>
+      <spatial_modus>SdfSpatialFilterAvg</spatial_modus>
+      <spatial_min>3</spatial_min>
+      <spatial_max>5</spatial_max>
+      <gdrx_tripnotchwidth>0.5</gdrx_tripnotchwidth>
+      <gdrx_tripccorthres>20</gdrx_tripccorthres>
+      <gdrx_tripsnrthres>3</gdrx_tripsnrthres>
+      <gdrx_tripsqithres>0.4</gdrx_tripsqithres>
+      <gdrx_tripratiothres>20</gdrx_tripratiothres>
+      <gdrx_tripdftwin>GdrxWfRectangular</gdrx_tripdftwin>
+      <threshold>dBZ:10,dBZv:10,dBuZ:1,dBuZv:1,V:6,Vv:6,Vu:65,Vvu:65,W:6,Wv:6,ZDR:10,LDR:10,uPhiDP:2,PhiDP:2,KDP:2,uKDP:2,RhoHV:2</threshold>
+      <midprf>0.00</midprf>
+      <nyquistextensionfactor>1.00</nyquistextensionfactor>
+      <cmd>Off</cmd>
+      <phase_coding>2</phase_coding>
+      <superresolution>Off</superresolution>
+   </slice>
+   <slice refid="1">
+      <dynz min="-31.5" max="95.5"/>
+      <dynv min="-27.6281" max="27.6281"/>
+      <dynw min="0.107922" max="27.5202"/>
+      <dynzdr min="-8" max="12"/>
+      <dynldr min="-50" max="10"/>
+      <dynkdp min="-20" max="40"/>
+      <posangle>22.0</posangle>
+   </slice>
+   <slice refid="2">
+      <dynz min="-31.5" max="95.5"/>
+      <dynv min="-27.6281" max="27.6281"/>
+      <dynw min="0.107922" max="27.5202"/>
+      <dynzdr min="-8" max="12"/>
+      <dynldr min="-50" max="10"/>
+      <dynkdp min="-20" max="40"/>
+      <posangle>16.8</posangle>
+      <stoprange>120</stoprange>
+   </slice>
+   <slice refid="3">
+      <dynz min="-31.5" max="95.5"/>
+      <dynv min="-26.3125" max="26.3125"/>
+      <dynw min="0.102783" max="26.2097"/>
+      <dynzdr min="-8" max="12"/>
+      <dynldr min="-50" max="10"/>
+      <dynkdp min="-20" max="40"/>
+      <posangle>12.2</posangle>
+      <stoprange>150</stoprange>
+      <highprf>1000</highprf>
+      <timesamp>29</timesamp>
+      <lowprf>0</lowprf>
+   </slice>
+   <slice refid="4">
+      <dynz min="-31.5" max="95.5"/>
+      <dynv min="-26.3125" max="26.3125"/>
+      <dynw min="0.102783" max="26.2097"/>
+      <dynzdr min="-8" max="12"/>
+      <dynldr min="-50" max="10"/>
+      <dynkdp min="-20" max="40"/>
+      <posangle>9.9</posangle>
+      <stoprange>150</stoprange>
+      <highprf>1000</highprf>
+      <timesamp>29</timesamp>
+      <lowprf>0</lowprf>
+   </slice>
+   <slice refid="5">
+      <dynz min="-31.5" max="95.5"/>
+      <dynv min="-26.3125" max="26.3125"/>
+      <dynw min="0.102783" max="26.2097"/>
+      <dynzdr min="-8" max="12"/>
+      <dynldr min="-50" max="10"/>
+      <dynkdp min="-20" max="40"/>
+      <posangle>7.9</posangle>
+      <stoprange>150</stoprange>
+      <highprf>1000</highprf>
+      <timesamp>29</timesamp>
+      <fftfilter>On</fftfilter>
+      <lowprf>0</lowprf>
+   </slice>
+   <slice refid="6">
+      <dynz min="-31.5" max="95.5"/>
+      <dynv min="-36.8375" max="36.8375"/>
+      <dynw min="0.0719482" max="18.3468"/>
+      <dynzdr min="-8" max="12"/>
+      <dynldr min="-50" max="10"/>
+      <dynkdp min="-20" max="40"/>
+      <posangle>6.2</posangle>
+      <stoprange>200</stoprange>
+      <highprf>700</highprf>
+      <stagger>3/2</stagger>
+      <lowprf>467.00</lowprf>
+      <antspeed>11</antspeed>
+      <timesamp>27</timesamp>
+      <filterwidth>6</filterwidth>
+      <fftfilter>On</fftfilter>
+      <nyquistextensionfactor>2.00</nyquistextensionfactor>
+      <pw_index>1</pw_index>
+   </slice>
+   <slice refid="7">
+      <dynz min="-31.5" max="95.5"/>
+      <dynv min="-36.8375" max="36.8375"/>
+      <dynw min="0.0719482" max="18.3468"/>
+      <dynzdr min="-8" max="12"/>
+      <dynldr min="-50" max="10"/>
+      <dynkdp min="-20" max="40"/>
+      <posangle>4.7</posangle>
+      <stoprange>200</stoprange>
+      <highprf>700</highprf>
+      <stagger>3/2</stagger>
+      <lowprf>467.00</lowprf>
+      <antspeed>11</antspeed>
+      <timesamp>27</timesamp>
+      <filterwidth>6</filterwidth>
+      <fftfilter>On</fftfilter>
+      <pw_index>1</pw_index>
+      <nyquistextensionfactor>2.00</nyquistextensionfactor>
+   </slice>
+   <slice refid="8">
+      <dynz min="-31.5" max="95.5"/>
+      <dynv min="-36.8375" max="36.8375"/>
+      <dynw min="0.0719482" max="18.3468"/>
+      <dynzdr min="-8" max="12"/>
+      <dynldr min="-50" max="10"/>
+      <dynkdp min="-20" max="40"/>
+      <posangle>3.4</posangle>
+      <stoprange>200</stoprange>
+      <highprf>700</highprf>
+      <stagger>3/2</stagger>
+      <lowprf>467.00</lowprf>
+      <antspeed>11</antspeed>
+      <timesamp>27</timesamp>
+      <filterwidth>6</filterwidth>
+      <fftfilter>On</fftfilter>
+      <pw_index>1</pw_index>
+      <nyquistextensionfactor>2.00</nyquistextensionfactor>
+   </slice>
+   <slice refid="9">
+      <dynz min="-31.5" max="95.5"/>
+      <dynv min="-36.8375" max="36.8375"/>
+      <dynw min="0.0719482" max="18.3468"/>
+      <dynzdr min="-8" max="12"/>
+      <dynldr min="-50" max="10"/>
+      <dynkdp min="-20" max="40"/>
+      <posangle>2.3</posangle>
+      <stoprange>200</stoprange>
+      <highprf>700</highprf>
+      <stagger>3/2</stagger>
+      <lowprf>467.00</lowprf>
+      <antspeed>11</antspeed>
+      <timesamp>27</timesamp>
+      <filterwidth>6</filterwidth>
+      <fftfilter>On</fftfilter>
+      <pw_index>1</pw_index>
+      <nyquistextensionfactor>2.00</nyquistextensionfactor>
+   </slice>
+   <slice refid="10">
+      <dynz min="-31.5" max="95.5"/>
+      <dynv min="-36.8375" max="36.8375"/>
+      <dynw min="0.0719482" max="18.3468"/>
+      <dynzdr min="-8" max="12"/>
+      <dynldr min="-50" max="10"/>
+      <dynkdp min="-20" max="40"/>
+      <posangle>1.3</posangle>
+      <stoprange>200</stoprange>
+      <highprf>700</highprf>
+      <stagger>3/2</stagger>
+      <lowprf>467.00</lowprf>
+      <antspeed>11</antspeed>
+      <timesamp>27</timesamp>
+      <filterwidth>6</filterwidth>
+      <fftfilter>On</fftfilter>
+      <pw_index>1</pw_index>
+      <nyquistextensionfactor>2.00</nyquistextensionfactor>
+   </slice>
+   <slice refid="11">
+      <dynz min="-31.5" max="95.5"/>
+      <dynv min="-36.8375" max="36.8375"/>
+      <dynw min="0.0719482" max="18.3468"/>
+      <dynzdr min="-8" max="12"/>
+      <dynldr min="-50" max="10"/>
+      <dynkdp min="-20" max="40"/>
+      <posangle>0.5</posangle>
+      <stoprange>200</stoprange>
+      <highprf>700</highprf>
+      <stagger>3/2</stagger>
+      <lowprf>467.00</lowprf>
+      <antspeed>10</antspeed>
+      <timesamp>29</timesamp>
+      <filterwidth>6</filterwidth>
+      <fftfilter>On</fftfilter>
+      <pw_index>1</pw_index>
+      <nyquistextensionfactor>2.00</nyquistextensionfactor>
+   </slice>
+</sdf>
